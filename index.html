@@ -3,103 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
+    <title>Portfolio de Tomás Engonga</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Tomás Engonga</h1>
-        <p>Estudiante de Ingeniería Informática | Desarrollador web</p>
-    </header>
+<header class="fade-in">
+    <h1 class="slide-down">Tomás Engonga</h1>
+    <p class="slide-up">Estudiante de Ingeniería Informática | Desarrollador Fullstack en formación</p>
+</header>
 
-    <nav>
-        <ul>
-            <li><a href="#sobre-mi">Sobre Mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+<nav>
+    <ul>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#logros">Logros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
 
-    <section id="sobre-mi" class="sobre-mi">
-        <h2>Sobre Mí</h2>
-        <div class="sobre-mi-contenido">
-            <div class="foto-perfil"></div>
-            <div class="sobre-mi-texto">
-                <p>¡Hola! Soy Tomás Engonga, un apasionado desarrollador en formación.</p>
-                <p>Me encanta aprender nuevas tecnologías y crear proyectos que resuelvan problemas reales. Actualmente, estoy enfocado en mejorar mis habilidades en desarrollo web.</p>
-                <p>Cuando no estoy programando, disfruto de [tus hobbies].</p>
+<section id="sobre-mi" class="sobre-mi fade-in">
+    <h2>Sobre Mí</h2>
+    <div class="sobre-mi-contenido">
+        <div class="foto-perfil"><img src="images/Perfil.png" alt="Foto de perfil de Tomás Engonga"></div>
+        <div class="sobre-mi-texto">
+            <p>¡Hola! Soy <strong>Tomás Engonga</strong>, estudiante de <strong>Ingeniería Informática</strong> en la <strong>Universidad Politécnica de Valencia (Campus de Alcoy)</strong>.</p>
+            <p>Tengo una formación previa como <strong>Técnico Superior en Sistemas de Telecomunicaciones e Informáticos</strong> y actualmente desarrollo proyectos orientados al <strong>desarrollo web fullstack</strong> con HTML, CSS, JavaScript, Python y Java.</p>
+            <p>Mi objetivo es salir del grado con un perfil sólido como <strong>desarrollador fullstack junior</strong> y seguir creciendo en <strong>Ciberseguridad</strong>, <strong>Cloud Computing</strong> y <strong>Big Data</strong>.</p>
+            <p>Fuera del código, disfruto de entrenar calistenia, leer sobre filosofía y escribir para reflexionar y crecer como persona.</p>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="fade-in">
+    <h2>Proyectos Destacados</h2>
+    <div class="proyectos-grid">
+        <div class="proyecto-card">
+            <h3>💎 E-commerce de Joyas Personalizadas</h3>
+            <p>Tienda online desarrollada con <strong>Next.js</strong>, con filtros dinámicos, carrito de compra y categorías interactivas. Inspirado en el diseño moderno y la experiencia de usuario fluida.</p>
+            <div class="tecnologias">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">CSS Modules</span>
             </div>
         </div>
-    </section>
 
-    <section id="proyectos">
-        <h2>Mis Proyectos</h2>
-        <div class="proyectos-grid">
-            <div class="proyecto-card">
-                <h3>Proyecto 1</h3>
-                <p>Descripción breve de tu primer proyecto. Explica qué hace y qué problema resuelve.</p>
-                <div class="tecnologías">
-                    <span class="tech-tag">HTML</span>
-                    <span class="tech-tag">CSS</span>
-                    <span class="tech-tag">JavaScript</span>
-                </div>
-            </div>
-
-            <div class="proyecto-card">
-                <h3>Proyecto 2</h3>
-                <p>Descripción de tu segundo proyecto. Incluye los desafíos que enfrentaste y cómo los resolviste.</p>
-                <div class="tecnologías">
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">Node.js</span>
-                </div>
-            </div>
-
-            <div class="proyecto-card">
-                <h3>Proyecto 3</h3>
-                <p>Tu tercer proyecto destacado. Menciona qué aprendiste al desarrollarlo.</p>
-                <div class="tecnologías">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Django</span>
-                </div>
+        <div class="proyecto-card">
+            <h3>🧠 Aplicación de Notas con IA</h3>
+            <p>App web para crear y organizar notas con asistencia de IA que genera resúmenes y recordatorios inteligentes. Ideal para estudiantes y profesionales.</p>
+            <div class="tecnologias">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">OpenAI API</span>
             </div>
         </div>
-    </section>
 
-    <section id="habilidades" class="habilidades">
-        <h2>Habilidades</h2>
-        <div class="habilidades-grid">
-            <div class="habilidad-item">
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, React</p>
-            </div>
-            <div class="habilidad-item">
-                <h3>Backend</h3>
-                <p>Node.js, Python, Bases de datos</p>
-            </div>
-            <div class="habilidad-item">
-                <h3>Herramientas</h3>
-                <p>Git, GitHub, VS Code, WebStorm</p>
-            </div>
-            <div class="habilidad-item">
-                <h3>Soft Skills</h3>
-                <p>Trabajo en equipo, Resolución de problemas</p>
+        <div class="proyecto-card">
+            <h3>💻 Portfolio Personal</h3>
+            <p>Este sitio web. Diseñado desde cero con HTML y CSS para mostrar mi trayectoria, habilidades y proyectos personales.</p>
+            <div class="tecnologias">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">GitHub Pages</span>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="contacto" class="contacto">
-        <h2>Contacto</h2>
-        <p>¿Quieres trabajar juntos o simplemente charlar? ¡Contáctame!</p>
-        <div class="contacto-links">
-            <a href="mailto:tommyengonga10@gmail.com" class="contacto-link">📧 Email</a>
-            <a href="https://github.com/Tengonga" target="_blank" class="contacto-link">🐱 GitHub</a>
-            <a href="https://linkedin.com/in/tomásengongaovononsugaperfil" target="_blank" class="contacto-link">💼 LinkedIn</a>
+<section id="habilidades" class="habilidades fade-in">
+    <h2>Habilidades</h2>
+    <div class="habilidades-grid">
+        <div class="habilidad-item">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, React, Next.js</p>
         </div>
-    </section>
+        <div class="habilidad-item">
+            <h3>Backend</h3>
+            <p>Node.js, Python, Java, SQL</p>
+        </div>
+        <div class="habilidad-item">
+            <h3>Herramientas</h3>
+            <p>Git, GitHub, IntelliJ IDEA, Android Studio, VS Code</p>
+        </div>
+        <div class="habilidad-item">
+            <h3>Soft Skills</h3>
+            <p>Autodisciplina, resolución de problemas, trabajo en equipo, responsabilidad</p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Tomás Engonga. Todos los derechos reservados.</p>
-    </footer>
+<section id="logros" class="fade-in">
+    <h2>Logros y Certificaciones</h2>
+    <div class="logros-grid">
+        <div class="logro-item">
+            <h3>🏅 Premio a la Idea más Innovadora</h3>
+            <p>Otorgado por el <strong>Ayuntamiento de L’Hospitalet de Llobregat (2023)</strong> por el desarrollo de un proyecto tecnológico original y de impacto social.</p>
+        </div>
+
+        <div class="logro-item">
+            <h3>🎓 Técnico Superior en Telecomunicaciones e Informática</h3>
+            <p>Título obtenido en el <strong>Centre d’Estudis Jaume Balmes</strong>, donde consolidé mis bases técnicas en redes, electrónica y sistemas informáticos.</p>
+        </div>
+
+        <div class="logro-item">
+            <h3>💪 Superación Personal</h3>
+            <p>En constante evolución personal y profesional, con autodisciplina y enfoque en la mejora continua.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="contacto fade-in">
+    <h2>Contacto</h2>
+    <p>¿Quieres colaborar o compartir ideas? ¡Hablemos!</p>
+    <div class="contacto-links">
+        <a href="mailto:tommyengonga10@gmail.com" class="contacto-link">📧 Email</a>
+        <a href="https://github.com/Tengonga" target="_blank" class="contacto-link">🐱 GitHub</a>
+        <a href="https://www.linkedin.com/in/tomás-engonga/" target="_blank" class="contacto-link">💼 LinkedIn</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tomás Engonga. Portfolio desarrollado con pasión, disciplina y propósito.</p>
+</footer>
 </body>
 </html>
